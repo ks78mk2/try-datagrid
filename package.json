@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "ag-grid-community": "^30.0.3",
-    "ag-grid-vue3": "^30.0.3"
-  }
-}

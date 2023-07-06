@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/DataGrid.vue'
+import DataGrid from '@/views/DataGrid.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'DataGrid',
-      component: HomeView
+      component: DataGrid
     }
   ]
 })
